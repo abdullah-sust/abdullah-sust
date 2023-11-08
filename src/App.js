@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './features/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://abdullah-sust.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Abu-Ahmad
-        </a>
-      </header>
+    <div className="bg-indigo-400">
+      <NavBar />
     </div>
   );
 }
